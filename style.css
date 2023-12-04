@@ -1,0 +1,79 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 20;
+  background-color: #8606c1; /* Set a background color for the entire page */
+  background-image: url(image/Lookout-Fire-smoke-over-Lookout-Ridge-InciWeb-9182023.webp);
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+  position: fixed; /* Fixed position to stay at the top */
+  width: 100%; /* Make it full-width */
+  top: 0; /* Position it at the top */
+  z-index: 1000; /* Set a high z-index to ensure it's above other content */
+  border-bottom-left-radius: 10px; /* Adjust the radius as needed */
+  border-bottom-right-radius: 10px; /* Adjust the radius as needed */
+}
+
+nav {
+  display: flex;
+  justify-content: space;
+  align-items: center;
+  
+}
+
+.logo-container img {
+  max-width: 50%;
+  max-height: 30%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+h1 {
+  margin: 0;
+  color: white; /* Set text color to white */
+  font-family: 'Aubrey', sans-serif; /* Replace 'Your Custom Font' with the desired font name */
+  font-size: 30px; /* Set the font size to 36 pixels or adjust as needed */  
+}
+.flex-grow {
+  flex-grow: 1; /* Make this element grow to fill the available space */
+}
+h2 {
+  color: black;
+  font-size: 30px;
+
+}
+p {
+  color: black;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+#canvas {
+  margin-top: 10px; /* Add some spacing for the canvas */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50; /* Green background color */
+  color: white; /* White text color */
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px; /* Add spacing between the button and the canvas */
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green color on hover */
+}
